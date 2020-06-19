@@ -1,9 +1,4 @@
-hello world
-What is your name
-My name is Jie Wu
-Cool name
-I love coding
-Thanks for coming
+
 
 What is your sport
 It's definitely nothing
