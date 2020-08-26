@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: wheat;
+}
+
+#title {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+#switch-wrap {
+  width: 200px;
+  height: 50px;
+  border-radius: 50px;
+  overflow: hidden;
+  position: relative;
+}
+
+.wrapper {
+  width: 350px;
+  height: 50px;
+  border-radius: 50px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  transition: all 1s linear;
+}
+
+.darkOff {
+  width: 200px;
+  height: 50px;
+  border-radius: 50px;
+  background: grey;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+#switch-flicker {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: white;
+  position: absolute;
+  top: 0;
+  left: 150px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.darkOn {
+  width: 200px;
+  height: 50px;
+  border-radius: 50px;
+  background: blue;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
