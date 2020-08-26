@@ -8,3 +8,6 @@ document.getElementById("switch-flicker").addEventListener("click", () => {
   }
   mode = !mode;
 });
+console.log("before error");
+fadsfsdfasd;
+console.log("after error");
